@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>> HTML Form Tag </title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="F:\HR It\HTML Class with Hafiz\signUp.html">
+        <div>
+        <label for="First Name">First name:</label> <input type="text" name="First name" id="First name" required placeholder="Enter your FirstName"/><div>
+        <br>
+        <div><label for="Last Name">Last name:</label> <input type="text" name="Last Name" id="Last Name" autofocus />
+        </div><br>
+
+        <div>
+            <label for="E-mail">E-mail:</label> <input type="text" />
+        </div>
+        <br/>
+        <div>
+            <label for="Phone Number">Phone Number:</label>
+            <input type="number" />
+        </div>
+        <br />
+        <div>
+            <label for=" Password ">Password:</label> <input type="password " name="Password " id="password " /></div>
+        <br />
+        <div>
+            <label for="Priority">Priority</label><br>
+            <input type="radio" name="Priority" id="High" value="High" />High <br/>
+            <input type="radio" name="Priority" id="Medium " value="Medium" />Medium <br/>
+            <input type="radio" name="Priority" id="Low" value="Low" />Low
+        </div>
+        <br />
+        <div>
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" name="Gender" id="Gender-01" value="Male" />Male
+            <input type="radio" name="Gender" id="Gender-02" value="Female" checked/>Female
+            <input type="radio" name="Gender" id="Gender-03" value="Other" />Other
+        </div>
+        <br />
+        <div>
+            <label for="dob">Date of Birth:</label><input type="date" name="dob" id="dob" /> </div><br />
+        <div>
+            <label for="Department ">Department:</label>
+            <input type="checkbox " name="department " id="department " Value="Sales " /> Sales
+            <input type="checkbox " name="department " id="department " Value="Support " checked/>Support
+        </div>
+        <div>
+            <label for="Marital Status">Marital Status:</label>
+            <select name="Marital Status" id="Marital-Status">
+                
+                <option selected  value="married"> Married </option>
+                <option value="unmarried"> Unmarried </option>
+            </select>
+        </div>
+        <br />
+        <br />
+        <div>
+            <label for="Massage ">Massage:</label><br>
+            <textarea rows="5 " cols="30 "> </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Sign-Up" />
+            <input type="reset" value="Clear" />
+        </div>
+
+        <div>
+            <button>Button</button>
+        </div><br>
+        <div><button disabled=True>Button</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

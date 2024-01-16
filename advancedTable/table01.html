@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Advanced Table</title>
+   
+</head>
+
+<body>
+    <!-- Table:01 Score sheet -->
+    <table border="1px" align="center" height="200px" width="300px" cellpadding="2px" cellspacing="2px">
+        <thead>
+            <caption>Score Sheet</caption>
+
+            <tr>
+                <th>Name</th>
+                <th>English</th>
+                <th>Bangla</th>
+                <th>Math</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hafiz</td>
+                <td>90</td>
+                <td>56</td>
+                <td>80</td>
+            </tr>
+
+            <tr>
+                <td>Kalam</td>
+                <td>56</td>
+                <td>89</td>
+                <td>87</td>
+            </tr>
+
+            <tr>
+                <td>Jamal</td>
+                <td>98</td>
+                <td>78</td>
+                <td>89</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+<!-- Score Sheet end -->
+
+<hr>
+<br>
+<br>
+<br>
+
+<!-- Table:02 Marging /marge -->
+
+<table border="1px" align="center" height="400px" width="600px" >
+    <thead align="center">
+        <tr>
+            <td>S.R</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- row:1 -->
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          
+        </tr>
+    <!-- row:2 -->
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td colspan="3"></td>
+            
+        </tr>
+
+    <!-- row:3 -->
+        <tr>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+
+        <!-- row:4 -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <!-- row:5 -->
+        <tr>
+            <td></td>
+            <td></td>
+    
+        </tr>
+           
+    </tbody>
+</table>
+<!-- Table:02 Marging /marge bEnd -->
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<!-- Table:3 Nasted Table Start -->
+
+<table  align="center" width="800px" height="400px" bgcolor="red" cellspacing="0px" cellpadding="0px">
+    <!-- row:01 -->
+    <tr>
+        <td bgcolor="blue" width="800px" height="200px">
+           
+            <table bgcolor="#2FFF00" width="800px" height="200px" cellspacing="0px" cellpadding=0px">
+                <tr>
+                    <!-- sub-colum:01 -->
+                    <td bgcolor="#FFF777" width="400px" height="200px"></td>
+                     <!-- sub-colum:02 -->
+
+                    <td> 
+                        <table bgcolor="#000000" width="400px" height="200px" cellspacing="0px" cellpadding=0px">
+                            <tr>
+                                <td bgcolor="#000fff" width="400px" height="100px"></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#2f0000" width="400px" height="100px"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <!-- row:02 -->
+    <tr>
+        <td bgcolor="gray" width="800px" height="200px" >Gray</td>
+    </tr>
+</table>
+<!-- Table:3 Nasted Table End -->
+
+<br>
+<br>
+<br>
+<br>
+</body>
+
+</html>
