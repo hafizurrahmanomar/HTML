@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: #ff0000; /* YouTube red */
+  color: #ffffff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; 
+
+    padding: 10px;
+    gap: 10px; 
+}
+
+.video {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+}
+
+.video h2 {
+  margin: 5px 0;
+}
+
+.video p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
