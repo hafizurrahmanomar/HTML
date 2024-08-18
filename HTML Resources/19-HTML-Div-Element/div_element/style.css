@@ -1,0 +1,11 @@
+/* div {
+  background: tomato;
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  /* margin: 0 auto;
+} */
+div {
+  background: teal;
+  display: inline-block;
+}

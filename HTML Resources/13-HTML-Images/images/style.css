@@ -1,0 +1,15 @@
+body {
+  background: #ddd;
+}
+a {
+  background: dodgerblue;
+  color: #000;
+  padding: 10px 25px;
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+}
+img {
+  width: 100px;
+  margin-right: 30px;
+}

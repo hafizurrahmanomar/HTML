@@ -1,0 +1,21 @@
+/* div {
+  background: tomato;
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  /* margin: 0 auto;
+} */
+#main {
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.first {
+  background: aqua;
+}
+.sec-class {
+  background: tomato;
+}
+.main_class {
+  background: plum;
+}
+

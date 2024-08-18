@@ -1,0 +1,8 @@
+body {
+  background: wheat;
+}
+iframe{
+  width: 100%;
+  border: 2px solid #ff0000;
+  height: 200px;
+}

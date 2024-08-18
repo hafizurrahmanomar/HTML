@@ -1,0 +1,26 @@
+form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+input,
+textarea {
+  font-size: 18px;
+  width: 90%;
+  padding: 10px;
+}
+textarea {
+  height: 200px;
+}
+button {
+  margin-top: 20px;
+  width: 200px;
+  padding: 10px;
+}
+div label {
+  display: inline-block;
+}
+div input {
+  width: auto;
+}
